@@ -2,7 +2,7 @@ package contract;
 
 public enum TileType {
 	  WALL,
-	  MUD,
+	  EMPTY,
 	  DOOR,
 	  BACKGROUND,
 }

@@ -9,6 +9,7 @@ import contract.IController;
 import contract.IModel;
 import contract.IView;
 
+
 /**
  * The Class View.
  *
@@ -78,5 +79,17 @@ public final class View implements IView, Runnable {
 	 */
 	public void setController(final IController controller) {
 		this.viewFrame.setController(controller);
+	}
+
+	@Override
+	public void closeAll() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String displayMessage() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

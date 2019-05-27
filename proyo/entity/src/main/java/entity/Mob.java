@@ -1,5 +1,9 @@
 package entity;
 
-public class Mob {
+import entity.Alive;
 
+public class Mob extends Alive{
+
+	
+	
 }
