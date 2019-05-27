@@ -10,19 +10,16 @@ public class BoulderDashController implements IOrderPerformer{
 	private IView iView;
 	private IBoulderDashModel iboulderDashModel; 
 	
-	public BoulderDashController (BoulderDashModel boulderDashModel, IView view) {
-		
-		iboulderDashModel = boulderDashModel; 
-		iView = view; 
-	}
 	@Override
 	public void orderPerform(UserOrder userOrder) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	public BoulderDashController(IBoulderDashModel boulderDashModel) {
-		
+	public BoulderDashController(IBoulderDashModel boulderDashModel, IView view) {
+
+		iboulderDashModel = boulderDashModel; 
+		iView = view; 
 	}
 
 	public void play() {
