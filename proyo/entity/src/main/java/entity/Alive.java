@@ -7,6 +7,12 @@ public class Alive implements IAlive{
 	private int SPEED = 3;
 	private int WIDTH = 32;
 	private int HEIGHT = 32; 
+	private Direction direction; 
+	
+	public Alive( Direction sensDirection) {
+		
+		direction = sensDirection; 
+	}
 	
 	@Override
 	public void xMove(Direction direction) {

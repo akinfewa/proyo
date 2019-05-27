@@ -7,7 +7,12 @@ public class Block implements IBlock{
 	private int SPEED = 2; 
 	private int WIDTH = 32;
 	private int HEIGHT = 32;
+	private Direction direction; 
 	
+	public Block( Direction sensDirection) {
+		
+		direction = sensDirection; 
+	}
 
 	@Override
 	public void crush(Alive alive) {
