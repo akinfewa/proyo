@@ -1,5 +1,11 @@
 package entity;
 
-public class Diamond {
+import entity.Block;
+
+public class Diamond extends Block{
+	
+public Diamond (int id) {
+	
+}
 
 }

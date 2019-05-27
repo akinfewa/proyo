@@ -4,6 +4,10 @@ import contract.IAlive;
 
 public class Alive implements IAlive{
 
+	private int SPEED = 3;
+	private int WIDTH = 32;
+	private int HEIGHT = 32; 
+	
 	@Override
 	public void xMove(Direction direction) {
 		// TODO Auto-generated method stub

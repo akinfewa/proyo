@@ -8,36 +8,44 @@ public class Block implements IBlock{
 	private int WIDTH = 32;
 	private int HEIGHT = 32;
 	
-	public void crush (Alive alive) {
+
+	@Override
+	public void crush(Alive alive) {
+		// TODO Auto-generated method stub
 		
 	}
-	
-	public void slide (Direction direction) {
-	
+	@Override
+	public void slide(Direction direction) {
+		// TODO Auto-generated method stub
 		
 	}
+	@Override
 	public void fall() {
+		// TODO Auto-generated method stub
 		
 	}
-	public void setDirection ( Direction direction) {
+	@Override
+	public void setDirection(Direction direction) {
+		// TODO Auto-generated method stub
 		
+	}
+	@Override
+	public Direction getDirection() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
-	public Direction getDirection() {
+	public Boolean isPickable() {
 		return null;
 		
 	}
-	public boolean isPickable() {
-		return false;
-	}
+	public Boolean isMovable() {
+		return null;
 	
-	public boolean isMovable() {
-		return false;
-		
 	}
-	public boolean isSolid() {
-		return false;
-		
+	public Boolean isSolid() {
+		return null;
+	
 	}
 	
 }
