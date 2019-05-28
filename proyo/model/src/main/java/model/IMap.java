@@ -1,5 +1,9 @@
 package model;
 
-public class IMap {
-
+public abstract class IMap {
+	
+	
+	public abstract void getWidth();
+	
+	public abstract void getHeight();
 }
