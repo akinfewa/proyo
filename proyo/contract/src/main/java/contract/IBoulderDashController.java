@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import entity.Alive;
 import entity.Block;
 
+/**
+ * 
+ * @author Damien
+ * @param getBlock
+ *  
+ *
+ */
+
 public interface IBoulderDashController {
 	public ArrayList<Block> getBlock  = new ArrayList<Block>();
 	public ArrayList<Alive> getAlive = new ArrayList<Alive>();
